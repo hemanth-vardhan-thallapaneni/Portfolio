@@ -1,0 +1,159 @@
+
+body {
+ margin: 0;
+ padding: 0;
+ background-image: url(./assets/006-subtle-light-patterns.jpg);
+ background-repeat: repeat;
+ background-position:center;
+  }
+  .profile-pic{
+    align-self: center;
+    margin-bottom: 10%;
+  }
+  .profile-pic > img{
+    border-radius: 50%;
+
+  }
+  h1,h2,h3,h4,p{
+    padding: 0px;
+    margin: 0px;
+  }
+  .container{
+    background: linear-gradient(22deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0.13631390056022408) 58%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 1%;
+    padding: 3% 5%;
+  }
+
+  .container * {
+    display: flex;
+   
+  }
+  span{
+    color: #a3a3a3;
+  }
+  .left-container{
+   
+     flex: 1;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-direction: column;
+     gap: 30px;
+     background-color: transparent;
+     font-family: poppins;
+  }
+  
+  .Contact-card{
+    
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+
+  }
+  .Contact-card > p > span {
+      margin-right: 10px;
+      font-weight: bold;
+      
+  }
+  .Education-card{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .Education-card > div{
+    flex-direction: column;
+
+  }
+  .Skills-card, .Interests-card{
+    flex-direction: column; 
+  }
+
+
+  .right-container{
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px;
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+  .title{
+    font-weight: 800;
+    width: 100%;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .title > h1 { 
+    color: #080808;
+  }
+  p { 
+    color: #a3a3a3;
+    font-weight: 200;
+  }
+  .links{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+  }
+ 
+  .links > a{
+    text-decoration: none;
+    color: #a3a3a3;
+    cursor: pointer;
+    
+    font-weight: bold;
+  }
+  .Experience-card {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .header{
+
+    flex-direction: column;
+  }
+  .bullet-points{
+    flex-direction: column;
+    color: #a3a3a3;
+  }
+  .Projects-card{
+    gap: 10px;
+  }
+  .Projects-card , .project {
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+ .project > h3 > a{
+  text-decoration: none;
+  color:#0c0c0c
+ }
+  .links > a:hover{
+    color: #0c0c0c;
+    text-decoration: underline;
+    opacity: 2;
+  }
+  .project > h3 > a:hover{
+    text-decoration: underline;
+    opacity: 2;
+  }
+
+  
